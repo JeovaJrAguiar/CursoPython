@@ -1,4 +1,4 @@
-# Criar um programa que leia um numero e mostre seu dobro, tripo e raiz quadrada
-num = int(input('Digite um numero: '))
+# Crie um algoritmo que receba um numero e mostre o seu doblo, triplo e raiz quadrada.
+n = int(input('digite um numero:'))
 
-print('Dobro: {} \nTriplo: {} \nRaiz quadrada: {:.2f}'.format( num*2, num*3, pow(num,(1/2))))
+print('O dobro: {} \nTriplo: {} \nRaiz Quadrada: {:.2f}'.format(n*2, n*3, pow(n,1/2)))
